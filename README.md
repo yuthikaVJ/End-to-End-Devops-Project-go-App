@@ -49,3 +49,13 @@ docker  login
 docker push <repo>:tagname
 ```
 
+#### Create EKS Cluster
+```bash 
+eksctl create cluster --name demo-cluster --region us-east-1 
+```
+
+#### Delete Cluster 
+
+```bash
+eksctl delete cluster --name demo-cluster --region us-east-1
+```
