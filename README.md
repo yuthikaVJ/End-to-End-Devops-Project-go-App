@@ -59,3 +59,5 @@ eksctl create cluster --name demo-cluster --region us-east-1
 ```bash
 eksctl delete cluster --name demo-cluster --region us-east-1
 ```
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
