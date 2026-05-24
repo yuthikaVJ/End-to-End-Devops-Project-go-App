@@ -31,3 +31,21 @@ The server will start on port 8080. You can access it by navigating to `http://l
 docker run -d -p 8080:8080 --name go   go-app
 ```
 
+#### Rename Docker image
+
+```bash 
+docker tag go-app:latest <your Docker hub repository>
+```
+
+#### upload to Docker Hub
+
+```bash
+docker  login
+```
+
+##### Push to the Docker hub
+
+```bash
+docker push <repo>:tagname
+```
+
